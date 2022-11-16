@@ -1,0 +1,10 @@
+{
+    "name": "dash/scandiweb",
+    "authors": [
+        {
+            "name": "Mustafa Madkour",
+            "email": "mustafaMDKR@gmail.com"
+        }
+    ],
+    "require": {}
+}
