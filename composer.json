@@ -1,5 +1,10 @@
 {
     "name": "dash/scandiweb",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
     "authors": [
         {
             "name": "Mustafa Madkour",
