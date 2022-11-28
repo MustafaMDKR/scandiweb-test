@@ -11,5 +11,7 @@
             "email": "mustafaMDKR@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twbs/bootstrap-icons": "^1.10"
+    }
 }
