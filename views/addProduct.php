@@ -3,7 +3,7 @@
 use app\core\form\Form;
 ?>
 <div class="container m-3 d-grid gap-3">
-    <h1 class="mb-2"> <i class="bi bi-stars p-2" style="font-size: 3rem; color: #FC7521;"></i> Add New Product...</h1>
+    <h1 class="mb-2 text-light"> <i class="bi bi-stars p-2" style="font-size: 3rem; color: #dc3545;"></i> Add New Product...</h1>
     <?php $form = Form::begin('', 'post') ?>
     <div class="row">
         <div class="col">
@@ -34,11 +34,11 @@ use app\core\form\Form;
         <div class="col-sm">
             <?= $form->inField($model, 'width', 'unity')->numField() ?>
         </div>
-        <span class="col-auto align-self-center" style="font-size: 2rem; color: #FC7521;"> X </span>
+        <span class="col-auto align-self-center" style="font-size: 2rem; color: #dc3545;"> X </span>
         <div class="col-sm">
             <?= $form->inField($model, 'height', 'unity')->numField() ?>
         </div>
-        <span class="col-auto align-self-center" style="font-size: 2rem; color: #FC7521;"> X </span>
+        <span class="col-auto align-self-center" style="font-size: 2rem; color: #dc3545;"> X </span>
         <div class="col-sm">
             <?= $form->inField($model, 'length', 'unity')->numField() ?>
         </div>

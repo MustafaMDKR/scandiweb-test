@@ -29,7 +29,7 @@ class InputField
             "<div class='input-group mb-2'>
                 <div class='form-floating'>
                     <input type='%s' name='%s' value='%s' class='form-control %s' id='%s' placeholder='product%s'>
-                    <label for='%s' class='p-2'><i class='bi bi-%s'  style='font-size: 1.25rem; color: #FC7521;'></i>   Product %s</label>
+                    <label for='%s' class='p-2'><i class='bi bi-%s'  style='font-size: 1.25rem; color: #dc3545;'></i>   Product %s</label>
                     <div class='invalid-feedback'>
                         %s
                     </div>
